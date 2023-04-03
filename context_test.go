@@ -15,6 +15,5 @@ func TestFromContextPanic(t *testing.T) {
 			t.Error("expect panic, but nil")
 		}
 	}()
-
 	MustFromContext(context.Background())
 }
